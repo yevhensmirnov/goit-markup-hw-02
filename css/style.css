@@ -5,6 +5,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .portfoliobutton:hover {
   background: #2196f3;
@@ -16,6 +22,11 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu:hover {
+  color: #2196f3;
 }
 .contacts {
   font-family: 'Roboto';
@@ -26,8 +37,92 @@
   line-height: 16px;
 }
 
-.big-button {
+.button {
   width: 200px;
   height: 50px;
   background: #2196f3;
+}
+h1 {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+h3 {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+p {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+h2 {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.portfolio {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
 }
