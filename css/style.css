@@ -1,0 +1,33 @@
+.portfoliobutton {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.portfoliobutton:hover {
+  background: #2196f3;
+}
+.menu {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.contacts {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.big-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+}
