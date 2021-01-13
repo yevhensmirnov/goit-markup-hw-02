@@ -4,27 +4,61 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
+  text-decoration: none;
 }
-.menu {
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+}
+.headlogo {
+  color: #212121;
+}
+.footlogo {
+  color: #ffffff;
+}
+.activelink {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
+  color: #2196f3;
+  text-decoration: none;
+}
+.activelink:hover,
+.activelink:focus {
+  text-decoration: underline;
+}
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
-.menu:hover {
-  color: #2196f3;
+.link:hover,
+.link:focus {
+  text-decoration: underline;
 }
-.menu:focus {
-  color: #2196f3;
+.linkfoot {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.linkfoot:hover,
+.linkfoot:focus {
+  text-decoration: underline;
 }
 .head {
   background: #2f303a;
@@ -86,6 +120,22 @@ h2 {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+footer {
+  background-color: #2f303a;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address:hover,
+.address:focus {
+  text-decoration: underline;
 }
 .portfoliobutton {
   width: 128px;
