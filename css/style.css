@@ -193,3 +193,6 @@ footer {
   letter-spacing: 0.03em;
   color: #757575;
 }
+body {
+  font-family: Roboto, sans-serif;
+}
