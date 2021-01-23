@@ -1,3 +1,10 @@
+:root {
+  --logo-color: #2196f3;
+  --link-color: #212121;
+  --contactlink-color: #757575;
+  --footlogo-color: #ffffff;
+  --grey-color: #757575;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -5,14 +12,14 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-color);
   text-decoration: none;
 }
 .headlogo {
-  color: #212121;
+  color: var(--link-color);
 }
 .footlogo {
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .activelink {
   font-family: Roboto;
@@ -21,12 +28,12 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--logo-color);
   text-decoration: none;
 }
 .activelink:hover,
 .activelink:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .link {
   font-family: Roboto;
@@ -35,12 +42,25 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--link-color);
   text-decoration: none;
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--logo-color);
+}
+.contactlink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--contactlink-color);
+}
+.contactlink:hover,
+.contactlink:focus {
+  color: var(--logo-color);
 }
 .linkfoot {
   font-family: Roboto;
@@ -54,7 +74,7 @@
 }
 .linkfoot:hover,
 .linkfoot:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .head {
   background: #2f303a;
@@ -65,12 +85,12 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: Roboto;
@@ -78,7 +98,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .features {
   font-family: Roboto;
@@ -87,18 +107,18 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
-h3 {
+.name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link-color);
 }
-h2 {
+.headline {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -106,7 +126,7 @@ h2 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link-color);
 }
 .team {
   font-family: Roboto;
@@ -115,7 +135,7 @@ h2 {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 footer {
   background-color: #2f303a;
@@ -127,11 +147,11 @@ footer {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .address:hover,
 .address:focus {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .portfoliobutton {
   width: 128px;
@@ -147,10 +167,10 @@ footer {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--link-color);
 }
 .portfoliobutton:hover {
-  background: #2196f3;
+  background: var(--logo-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -158,10 +178,10 @@ footer {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .portfoliobutton:focus {
-  background: #2196f3;
+  background: var(--logo-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -169,7 +189,7 @@ footer {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footlogo-color);
 }
 .workname {
   font-family: Roboto;
@@ -178,7 +198,7 @@ footer {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--link-color);
 }
 .work {
   font-family: Roboto;
@@ -187,7 +207,7 @@ footer {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 body {
   font-family: Roboto, sans-serif;
