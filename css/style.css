@@ -140,7 +140,7 @@
   color: var(--grey-color);
 }
 footer {
-  background-color: var(-accent-color);
+  background-color: var(--accent-color);
 }
 .address {
   font-family: Roboto;
@@ -156,10 +156,6 @@ footer {
   color: var(--logo-color);
 }
 .portfoliobutton {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: var(--second-color);
   border-radius: 4px;
   font-family: Roboto;
@@ -181,6 +177,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--footlogo-color);
+  cursor: pointer;
 }
 .portfoliobutton:focus {
   background: var(--logo-color);
@@ -216,4 +213,14 @@ body {
 }
 li {
   list-style-type: none;
+}
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-color);
 }
