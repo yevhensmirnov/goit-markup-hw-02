@@ -102,6 +102,9 @@
   line-height: 30px;
   color: var(--footlogo-color);
 }
+.button:hover {
+  cursor: pointer;
+}
 .features {
   font-family: Roboto;
   font-style: normal;
